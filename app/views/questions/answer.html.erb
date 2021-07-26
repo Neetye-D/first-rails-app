@@ -1,0 +1,12 @@
+<%# localhost:3000/answer?question=hello
+localhost:3000/answer?question=what time is it? %>  
+
+<span>   <%= @question %> </span>
+<br>
+<span> <%= @answer %> </span> 
+<ul>
+  <li>
+      <%= link_to "ask a new question", root_path %>
+  </li>
+</ul>
+<%# ../views/questions/ask.html.erb  %>
